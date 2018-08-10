@@ -1,0 +1,14 @@
+name: kitplugin
+main: me.eric.kitplugin.Main
+version: 1.0
+author: EricSiu
+api-version: 1.13
+commands:
+  food:
+    description: A command for food kit.
+    permission: food.food
+    permission-message: You do not have permission food.food!
+permissions:
+  food.food:
+    description: Allows you to use command /food.
+    default: true

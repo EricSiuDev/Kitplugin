@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="kitplugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kitplugin_jar</output-path>
+    <root id="archive" name="kitplugin.jar">
+      <element id="module-output" name="kitplugin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../spigot-api-1.13-R0.1-SNAPSHOT-shaded-b1802.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
